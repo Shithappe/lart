@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\OfferController;
+use App\Http\Controllers\OrderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,4 @@ Route::post('/offer', [OfferController::class, 'create']);
 Route::post('/offer_by_categoty_id', [OfferController::class, 'getByCategory_id']);
 Route::get('/categories', [CategoryController::class, 'index']);
 // Route::get('/c', [CategoryController::class, 'getCategoryById']);
+Route::post('/order', [OrderController::class, 'create']);

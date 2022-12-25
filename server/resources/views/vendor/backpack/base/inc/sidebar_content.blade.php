@@ -3,3 +3,4 @@
 
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('offer') }}"><i class="nav-icon la la-question"></i> Offers</a></li>
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('category') }}"><i class="nav-icon la la-question"></i> Categories</a></li>
+<li class="nav-item"><a class="nav-link" href="{{ backpack_url('order') }}"><i class="nav-icon la la-question"></i> Orders</a></li>
